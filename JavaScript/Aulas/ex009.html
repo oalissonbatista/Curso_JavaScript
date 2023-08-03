@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condições Js</title>
+    <style>
+        div#res{
+            padding-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Condições em Js</h1>
+    <h2>Sistema de multas</h2>
+    
+    <input type="number" name="vel" id="vel"> Km/h
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res"></div>
+    <script>
+        function calcular(){
+            var a = document.getElementById('vel')
+            var res = document.getElementById('res')
+            var vel = Number(a.value)
+            res.innerHTML=`<p>Sua velocidade atual é de ${vel}km/h</p>`
+            if(Number(a.value) > 60){
+                res.innerHTML+='<p>Ultrapassou a velocidade permitida de 60km/h. <strong>MULTADO!</strong></p>'
+                res.style.color ='red'
+            }else{
+                res.innerHTML+='<p>Velocidade permitida.</p>'
+                res.style.color = 'green'
+            }
+            res.innerHTML+= '<p>Dirija sempre com o cinto de segurança</p>'
+        }
+    </script>
+    
+</body>
+</html>
