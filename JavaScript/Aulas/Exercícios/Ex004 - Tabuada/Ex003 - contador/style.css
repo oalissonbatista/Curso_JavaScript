@@ -1,0 +1,31 @@
+body{
+    background-color: #468eec;
+}
+header > h1{
+    color: white;
+    text-align: center;
+    font-family: arial;  
+}
+section{
+    background-color: white;
+    width: 600px;
+    border-radius: 15px;
+    margin: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    font-size: 30px;
+    box-shadow: 5px 5px 10px #0000008a;
+}
+footer{
+    text-align: center;
+    color: white ;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+img{
+    padding-top: 20px;
+    width: 250px;
+    height: 250px;
+}
