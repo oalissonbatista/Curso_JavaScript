@@ -1,26 +1,21 @@
 body{
-    background-color: rgb(70, 142, 236);
+    background-color: #468eec;
 }
 header > h1{
     color: white;
     text-align: center;
-    font-family: arial;
-    
+    font-family: arial;  
 }
 section{
     background-color: white;
-    width: 700px;
-    height: 600px;
+    width: 600px;
     border-radius: 15px;
     margin: auto;
-    padding: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 1px;
     font-size: 30px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.542);
-
-}
-div#resultado{
-    text-align: center;
-
+    box-shadow: 5px 5px 10px #0000008a;
 }
 footer{
     text-align: center;
@@ -28,4 +23,9 @@ footer{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+}
+img{
+    padding-top: 20px;
+    width: 250px;
+    height: 250px;
 }
